@@ -1,1 +1,1 @@
-#[U. E. P. Donaldo García López](http://donaldo.micole.red/)
+#[U. E. P. Santo Tomás Aquino](http://aquino.micole.red/)

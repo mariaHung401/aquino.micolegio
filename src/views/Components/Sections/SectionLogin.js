@@ -7,7 +7,7 @@ import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
-import SectionFeed from "./SectionFeed";
+// import SectionFeed from "./SectionFeed";
 
 const useStyles = makeStyles(styles);
 
@@ -30,9 +30,9 @@ export default function SectionCarousel(props) {
               Instagram
             </Button>
           </GridItem>
-          <GridItem xs={12} sm={10} md={10} className={classes.marginAuto}>
+          {/* <GridItem xs={12} sm={10} md={10} className={classes.marginAuto}>
             <SectionFeed account="stoaquino" numberOfMediaElements={6} />
-          </GridItem>
+          </GridItem> */}
         </GridContainer>
       {/* </div> */}
     </div>

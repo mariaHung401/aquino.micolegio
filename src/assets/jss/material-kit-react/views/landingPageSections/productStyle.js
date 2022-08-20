@@ -1,9 +1,12 @@
-import { title } from "assets/jss/material-kit-react.js";
+import { container, title, description } from "assets/jss/material-kit-react.js";
 
 const productStyle = {
   section: {
     padding: "70px 0",
-    textAlign: "center"
+  },
+  container: {
+    ...container,
+    textAlign: "center !important"
   },
   title: {
     ...title,
@@ -13,7 +16,8 @@ const productStyle = {
     textDecoration: "none"
   },
   description: {
-    color: "#999"
+    ...description,
+    textAlign: "justify",
   }
 };
 

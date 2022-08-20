@@ -21,7 +21,7 @@ import SectionDownload from "./Sections/SectionDownload.js";
 import SecctionReview from "./Sections/SecctionReview.js";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
-import logo from "assets/img/colegio/logoAquino.png";
+import logo from "assets/img/colegio/logo.png";
 
 const useStyles = makeStyles(styles);
 const dataCollege = {
@@ -80,7 +80,7 @@ export default function Components(props) {
         {...rest}
       />
 
-      <Parallax image={require("assets/img/colegio/bannerOneColor.png")}>
+      <Parallax image={require("assets/img/colegio/bannerTeacher.png")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>

@@ -50,7 +50,7 @@ const defaultFont = {
 };
 
 const primaryColor = "#9c27b0";
-const warningColor = "#FFB703";
+const warningColor = "#FFEA00";
 const dangerColor = "#D00000";
 const successColor = "#4caf50";
 const infoColor = "#38B6FF";
@@ -143,6 +143,11 @@ const title = {
   fontFamily: `"Roboto Slab", "Times New Roman", serif`,
 };
 
+const description = {
+  color: "#141414",
+  textAlign: "center !important",
+};
+
 const cardTitle = {
   ...title,
   marginTop: ".625rem",
@@ -191,6 +196,7 @@ export {
   cardHeader,
   defaultBoxShadow,
   title,
+  description,
   cardTitle,
   cardLink,
   cardSubtitle,

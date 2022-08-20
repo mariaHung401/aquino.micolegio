@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
+import Warning from "components/Typography/Warning.js";
 
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
 
@@ -15,7 +16,7 @@ export default function HeaderLinks() {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Link to="/" className={classes.navLink}>
-          Sol naciente de verdad
+          <Warning><strong>Sol naciente de verdad</strong></Warning>
         </Link>
       </ListItem>
     </List>

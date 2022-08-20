@@ -1,14 +1,9 @@
 import React from "react";
 
 import { makeStyles } from "@material-ui/core/styles";
-import { Link } from "react-router-dom";
 
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import Button from "components/CustomButtons/Button.js";
-import Parallax from "components/Parallax/Parallax.js";
-
-import ChevronRightRoundedIcon from '@material-ui/icons/ChevronRightRounded';
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 

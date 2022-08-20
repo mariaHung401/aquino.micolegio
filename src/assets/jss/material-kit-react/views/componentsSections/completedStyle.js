@@ -1,6 +1,4 @@
-import { container } from "assets/jss/material-kit-react";
-
-import { title } from "assets/jss/material-kit-react.js";
+import { container, title, description } from "assets/jss/material-kit-react";
 
 const completedStyle = {
   title: {
@@ -16,6 +14,10 @@ const completedStyle = {
   container: {
     ...container,
     textAlign: "center !important"
+  },
+  description: {
+    ...description,
+    textAlign: "justify",
   }
 };
 

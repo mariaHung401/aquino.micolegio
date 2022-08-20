@@ -10,14 +10,6 @@ const useStyles = makeStyles(styles);
 
 export default function SectionCompletedExamples(props) {
   const classes = useStyles();
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-  };
 
   return (
     <div className={classes.section}>
